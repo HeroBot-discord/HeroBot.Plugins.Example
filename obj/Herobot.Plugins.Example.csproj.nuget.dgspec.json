@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\Herobot.Plugins.Example.csproj": {}
+    "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\HeroBot.Plugins.Example.csproj": {}
   },
   "projects": {
     "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\HeroBot.Common\\HeroBot.Common.csproj": {
@@ -43,9 +43,25 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
             "Discord.Net": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentMigrator.Runner.SQLite": {
+              "target": "Package",
+              "version": "[3.2.1, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -61,6 +77,10 @@
               "target": "Package",
               "version": "[3.0.0-preview6-27804-01, )",
               "autoReferenced": true
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.0.8, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
@@ -83,12 +103,12 @@
         }
       }
     },
-    "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\Herobot.Plugins.Example.csproj": {
+    "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\HeroBot.Plugins.Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\Herobot.Plugins.Example.csproj",
-        "projectName": "Herobot.Plugins.Example",
-        "projectPath": "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\Herobot.Plugins.Example.csproj",
+        "projectUniqueName": "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\HeroBot.Plugins.Example.csproj",
+        "projectName": "HeroBot.Plugins.Example",
+        "projectPath": "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\HeroBot.Plugins.Example.csproj",
         "packagesPath": "C:\\Users\\Matthieu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Matthieu\\source\\repos\\HeroBot-deux-point-zéro\\Herobot.Plugins.Example\\obj\\",
         "projectStyle": "PackageReference",

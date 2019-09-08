@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace Herobot.Plugins.Example.Modules
 {
     [Cooldown(1)]
-    [NeedPlugin]
-    [Name("Basic Module")]
-    class ExampleModule : ModuleBase<SocketCommandContext>
+    [NeedPlugin()]
+    [Name("Example plugin")]
+    public class ExampleModule : ModuleBase<SocketCommandContext>
     {
         [Command("testCommand")]
         public Task Testcommand() => ReplyAsync("I'm a test");
